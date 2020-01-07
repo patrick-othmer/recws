@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/recws-org/recws"
+	"github.com/patrick-othmer/recws"
 	"log"
 	"time"
 )
