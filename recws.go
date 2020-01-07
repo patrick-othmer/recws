@@ -284,9 +284,6 @@ func (rc *RecConn) Dial(urlStr string, reqHeader http.Header) {
 
 	// Connect
 	go rc.connect()
-
-	// wait on first attempt
-	time.Sleep(rc.getHandshakeTimeout())
 }
 
 // GetURL returns current connection url
