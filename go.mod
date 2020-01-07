@@ -1,4 +1,4 @@
-module github.com/recws-org/recws
+module github.com/patrick-othmer/recws
 
 require (
 	github.com/gorilla/websocket v1.4.0
